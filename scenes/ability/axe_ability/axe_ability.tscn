@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://dpatweb5kyp0j"]
 
 [ext_resource type="Texture2D" uid="uid://c3tof7tvlyisr" path="res://scenes/ability/axe_ability/axe.png" id="1_4sc8o"]
-[ext_resource type="Script" path="res://scenes/ability/axe_ability/axe_ability.gd" id="1_gf6js"]
+[ext_resource type="Script" uid="uid://c3nkleitgj3xe" path="res://scenes/ability/axe_ability/axe_ability.gd" id="1_gf6js"]
 [ext_resource type="PackedScene" uid="uid://bdfm633tkddth" path="res://scenes/component/hitbox_component.tscn" id="3_l4ubx"]
 
 [sub_resource type="Animation" id="Animation_gxeip"]
@@ -38,8 +38,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_2uv6p"]
 _data = {
-"RESET": SubResource("Animation_gxeip"),
-"default": SubResource("Animation_xxr5w")
+&"RESET": SubResource("Animation_gxeip"),
+&"default": SubResource("Animation_xxr5w")
 }
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_7n70q"]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=15 format=3 uid="uid://cf7bhpjr84lm5"]
 
-[ext_resource type="Script" path="res://scenes/component/death_component.gd" id="1_6hfwe"]
+[ext_resource type="Script" uid="uid://cki4umiq506et" path="res://scenes/component/death_component.gd" id="1_6hfwe"]
 [ext_resource type="Texture2D" uid="uid://dq4apm2yeomim" path="res://scenes/game_object/basic_enemy/basic_enemy.png" id="1_xl446"]
 [ext_resource type="PackedScene" uid="uid://dw7d0tgixjav7" path="res://scenes/component/random_stream_player_2d_component.tscn" id="3_4a78i"]
 [ext_resource type="AudioStream" uid="uid://ba4yvxghfpvs8" path="res://assets/audio/footstep_carpet_000.ogg" id="4_m5dqt"]
@@ -55,8 +55,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_r41qp"]
 _data = {
-"RESET": SubResource("Animation_ikq1n"),
-"default": SubResource("Animation_v2dkb")
+&"RESET": SubResource("Animation_ikq1n"),
+&"default": SubResource("Animation_v2dkb")
 }
 
 [sub_resource type="Curve" id="Curve_5qpa1"]
@@ -70,13 +70,13 @@ curve = SubResource("Curve_5qpa1")
 particle_flag_disable_z = true
 direction = Vector3(2.08165e-12, -1, 2.08165e-12)
 spread = 30.0
-gravity = Vector3(0, 800, 0)
 initial_velocity_min = 175.0
 initial_velocity_max = 250.0
 angular_velocity_min = -1440.0
 angular_velocity_max = 1440.0
 orbit_velocity_min = 2.08167e-14
 orbit_velocity_max = 2.08167e-14
+gravity = Vector3(0, 800, 0)
 scale_curve = SubResource("CurveTexture_16u2b")
 
 [node name="DeathComponent" type="Node2D"]

@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://yhrcfhj1x7wn"]
 
-[ext_resource type="Shader" path="res://shaders/lightrays.gdshader" id="1_6gjr6"]
-[ext_resource type="Script" path="res://scenes/effects/ray_effect.gd" id="1_sj8h1"]
+[ext_resource type="Shader" uid="uid://b05423m86ps2a" path="res://shaders/lightrays.gdshader" id="1_6gjr6"]
+[ext_resource type="Script" uid="uid://es0qjp0imvbf" path="res://scenes/effects/ray_effect.gd" id="1_sj8h1"]
 [ext_resource type="Texture2D" uid="uid://bpbh6i70f3fwt" path="res://assets/tilemap/Tiles/tile_0000.png" id="2_4l3wk"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_pc68o"]

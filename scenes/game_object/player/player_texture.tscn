@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://c6ok3qiorsyuj"]
 
 [ext_resource type="Texture2D" uid="uid://db1u3fmqjn1dk" path="res://assets/player/skins/default.png" id="1_uy0sq"]
-[ext_resource type="Script" path="res://scenes/game_object/player/player_texture.gd" id="2_l14fl"]
+[ext_resource type="Script" uid="uid://byd5h0e6m4hoo" path="res://scenes/game_object/player/player_texture.gd" id="2_l14fl"]
 
 [node name="PlayerTexture" type="Sprite2D"]
 texture = ExtResource("1_uy0sq")

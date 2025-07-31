@@ -1,6 +1,6 @@
 [gd_scene load_steps=24 format=3 uid="uid://dermboxi5ld4"]
 
-[ext_resource type="Script" path="res://scenes/game_object/player/player.gd" id="1_x14sp"]
+[ext_resource type="Script" uid="uid://b7dejrqr6dpg0" path="res://scenes/game_object/player/player.gd" id="1_x14sp"]
 [ext_resource type="PackedScene" uid="uid://bnh7burb0h2aa" path="res://scenes/ability/sword_ability_controller/sword_ability_controller.tscn" id="2_5r485"]
 [ext_resource type="PackedScene" uid="uid://ch0udsxsqb14i" path="res://scenes/component/velocity_component.tscn" id="2_p83nj"]
 [ext_resource type="PackedScene" uid="uid://dw7d0tgixjav7" path="res://scenes/component/random_stream_player_2d_component.tscn" id="2_x5gjg"]
@@ -179,10 +179,10 @@ tracks/2/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_o5ie4"]
 _data = {
-"RESET": SubResource("Animation_sx8y2"),
-"dash": SubResource("Animation_ptytm"),
-"idle": SubResource("Animation_sbwug"),
-"walk": SubResource("Animation_n64ea")
+&"RESET": SubResource("Animation_sx8y2"),
+&"dash": SubResource("Animation_ptytm"),
+&"idle": SubResource("Animation_sbwug"),
+&"walk": SubResource("Animation_n64ea")
 }
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_pnbmn"]

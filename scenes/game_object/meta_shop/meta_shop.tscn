@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://pwibcmv2na4x" path="res://scenes/component/shadow_component.tscn" id="1_qxecg"]
 [ext_resource type="Texture2D" uid="uid://b8aspyjloaoo3" path="res://scenes/game_object/meta_shop/meta_shop.png" id="2_r1afu"]
 [ext_resource type="PackedScene" uid="uid://yhrcfhj1x7wn" path="res://scenes/effects/ray_effect.tscn" id="3_s4ks0"]
-[ext_resource type="Shader" path="res://shaders/lightrays.gdshader" id="4_iepdk"]
+[ext_resource type="Shader" uid="uid://b05423m86ps2a" path="res://shaders/lightrays.gdshader" id="4_iepdk"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_oyaub"]
 shader = ExtResource("4_iepdk")

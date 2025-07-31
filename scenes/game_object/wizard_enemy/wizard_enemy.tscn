@@ -2,13 +2,13 @@
 
 [ext_resource type="PackedScene" uid="uid://dmegso3kjij1s" path="res://scenes/component/health_component.tscn" id="1_hj65g"]
 [ext_resource type="Texture2D" uid="uid://dfnvwq55bbcsj" path="res://scenes/game_object/wizard_enemy/wizard_enemy.png" id="1_mxvyy"]
-[ext_resource type="Script" path="res://scenes/game_object/wizard_enemy/wizard_enemy.gd" id="1_oyyxi"]
+[ext_resource type="Script" uid="uid://rm8435pyy4s0" path="res://scenes/game_object/wizard_enemy/wizard_enemy.gd" id="1_oyyxi"]
 [ext_resource type="PackedScene" uid="uid://ch0udsxsqb14i" path="res://scenes/component/velocity_component.tscn" id="2_5pjsd"]
 [ext_resource type="PackedScene" uid="uid://cf7bhpjr84lm5" path="res://scenes/component/death_component.tscn" id="2_7gcwh"]
 [ext_resource type="PackedScene" uid="uid://monloi3v6fr6" path="res://scenes/component/vial_drop_component.tscn" id="4_fducc"]
 [ext_resource type="PackedScene" uid="uid://7jwo8f2bjjf8" path="res://scenes/component/hurtbox_component.tscn" id="4_tk5fm"]
 [ext_resource type="PackedScene" uid="uid://dc7qpjp7vnymr" path="res://scenes/component/hit_flash_component.tscn" id="5_4652o"]
-[ext_resource type="Shader" path="res://scenes/component/hit_flash_component.gdshader" id="6_iynof"]
+[ext_resource type="Shader" uid="uid://dvtavyk6q8ea3" path="res://scenes/component/hit_flash_component.gdshader" id="6_iynof"]
 [ext_resource type="PackedScene" uid="uid://dw7d0tgixjav7" path="res://scenes/component/random_stream_player_2d_component.tscn" id="8_t6son"]
 [ext_resource type="AudioStream" uid="uid://ba4yvxghfpvs8" path="res://assets/audio/footstep_carpet_000.ogg" id="9_huf66"]
 [ext_resource type="AudioStream" uid="uid://dxmmcy0cw2m5n" path="res://assets/audio/footstep_carpet_001.ogg" id="10_q21qc"]
@@ -117,8 +117,8 @@ tracks/3/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_db5o2"]
 _data = {
-"RESET": SubResource("Animation_qyro6"),
-"walk": SubResource("Animation_6xgv4")
+&"RESET": SubResource("Animation_qyro6"),
+&"walk": SubResource("Animation_6xgv4")
 }
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_w0dus"]

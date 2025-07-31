@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://uvsk5gj4gosp"]
 
 [ext_resource type="Texture2D" uid="uid://c0jx16s3861tn" path="res://scenes/ability/dash_ability_controller/dash.png" id="1_3bpwt"]
-[ext_resource type="Script" path="res://scenes/ability/dash_ability_controller/dash_ability_controller.gd" id="1_wjvrv"]
+[ext_resource type="Script" uid="uid://d4bvc6ij6pf46" path="res://scenes/ability/dash_ability_controller/dash_ability_controller.gd" id="1_wjvrv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_b0clo"]
 atlas = ExtResource("1_3bpwt")

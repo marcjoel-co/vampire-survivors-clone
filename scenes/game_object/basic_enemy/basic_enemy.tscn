@@ -1,14 +1,14 @@
 [gd_scene load_steps=23 format=3 uid="uid://co2t4lal7lfr5"]
 
 [ext_resource type="Texture2D" uid="uid://dq4apm2yeomim" path="res://scenes/game_object/basic_enemy/basic_enemy.png" id="1_6s0dx"]
-[ext_resource type="Script" path="res://scenes/game_object/basic_enemy/basic_enemy.gd" id="1_huj3o"]
+[ext_resource type="Script" uid="uid://dgk4l480y6hns" path="res://scenes/game_object/basic_enemy/basic_enemy.gd" id="1_huj3o"]
 [ext_resource type="PackedScene" uid="uid://dmegso3kjij1s" path="res://scenes/component/health_component.tscn" id="2_sliiy"]
 [ext_resource type="PackedScene" uid="uid://monloi3v6fr6" path="res://scenes/component/vial_drop_component.tscn" id="3_3hkfu"]
 [ext_resource type="PackedScene" uid="uid://cf7bhpjr84lm5" path="res://scenes/component/death_component.tscn" id="4_dd0ts"]
 [ext_resource type="PackedScene" uid="uid://ch0udsxsqb14i" path="res://scenes/component/velocity_component.tscn" id="4_jyghh"]
 [ext_resource type="PackedScene" uid="uid://7jwo8f2bjjf8" path="res://scenes/component/hurtbox_component.tscn" id="4_nkced"]
 [ext_resource type="PackedScene" uid="uid://dc7qpjp7vnymr" path="res://scenes/component/hit_flash_component.tscn" id="5_tc30p"]
-[ext_resource type="Shader" path="res://scenes/component/hit_flash_component.gdshader" id="6_quhxv"]
+[ext_resource type="Shader" uid="uid://dvtavyk6q8ea3" path="res://scenes/component/hit_flash_component.gdshader" id="6_quhxv"]
 [ext_resource type="PackedScene" uid="uid://dw7d0tgixjav7" path="res://scenes/component/random_stream_player_2d_component.tscn" id="10_5luhm"]
 [ext_resource type="AudioStream" uid="uid://ba4yvxghfpvs8" path="res://assets/audio/footstep_carpet_000.ogg" id="10_jsuiu"]
 [ext_resource type="AudioStream" uid="uid://dxmmcy0cw2m5n" path="res://assets/audio/footstep_carpet_001.ogg" id="12_jdhpp"]
@@ -75,8 +75,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_whvla"]
 _data = {
-"RESET": SubResource("Animation_uqsqt"),
-"walk": SubResource("Animation_5xe3m")
+&"RESET": SubResource("Animation_uqsqt"),
+&"walk": SubResource("Animation_5xe3m")
 }
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_0p5xm"]

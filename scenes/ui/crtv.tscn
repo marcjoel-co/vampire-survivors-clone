@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://5hrwugxpssgm"]
 
-[ext_resource type="Script" path="res://scenes/ui/crtv.gd" id="1_7a2cu"]
-[ext_resource type="Shader" path="res://scenes/ui/crtv.gdshader" id="2_0l3k1"]
+[ext_resource type="Script" uid="uid://26b8sx7rxfnp" path="res://scenes/ui/crtv.gd" id="1_7a2cu"]
+[ext_resource type="Shader" uid="uid://by002jlwr7p4u" path="res://scenes/ui/crtv.gdshader" id="2_0l3k1"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ibf35"]
 shader = ExtResource("2_0l3k1")
@@ -85,8 +85,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ctif4"]
 _data = {
-"RESET": SubResource("Animation_sms87"),
-"hit": SubResource("Animation_rr8y0")
+&"RESET": SubResource("Animation_sms87"),
+&"hit": SubResource("Animation_rr8y0")
 }
 
 [node name="CRTV" type="CanvasLayer"]

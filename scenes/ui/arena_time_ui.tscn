@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bwme5dww0vuv5"]
 
-[ext_resource type="Script" path="res://scenes/ui/arena_time_ui.gd" id="1_uuern"]
+[ext_resource type="Script" uid="uid://do8th0het0evx" path="res://scenes/ui/arena_time_ui.gd" id="1_uuern"]
 
 [node name="ArenaTimeUI" type="CanvasLayer"]
 offset = Vector2(2.08165e-12, 10)

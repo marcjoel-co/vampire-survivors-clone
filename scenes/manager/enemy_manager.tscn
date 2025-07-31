@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://cga46na3sr8l6"]
 
-[ext_resource type="Script" path="res://scenes/manager/enemy_manager.gd" id="1_j7cd4"]
+[ext_resource type="Script" uid="uid://dldy7fsjjycmj" path="res://scenes/manager/enemy_manager.gd" id="1_j7cd4"]
 [ext_resource type="PackedScene" uid="uid://co2t4lal7lfr5" path="res://scenes/game_object/basic_enemy/basic_enemy.tscn" id="2_bnv11"]
 [ext_resource type="PackedScene" uid="uid://cj64kylpwr4uk" path="res://scenes/game_object/wizard_enemy/wizard_enemy.tscn" id="3_awm2v"]
 [ext_resource type="PackedScene" uid="uid://b505dt1cwkrrq" path="res://scenes/game_object/bat_enemy/bat_enemy.tscn" id="4_4r0ot"]

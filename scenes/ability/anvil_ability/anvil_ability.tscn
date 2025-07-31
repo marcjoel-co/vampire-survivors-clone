@@ -1,6 +1,6 @@
 [gd_scene load_steps=17 format=3 uid="uid://dj2xctpuwbnxj"]
 
-[ext_resource type="Script" path="res://scenes/ability/anvil_ability/anvil_ability.gd" id="1_4168e"]
+[ext_resource type="Script" uid="uid://ccnvfjfmhiyca" path="res://scenes/ability/anvil_ability/anvil_ability.gd" id="1_4168e"]
 [ext_resource type="Texture2D" uid="uid://bpku40u7m77xe" path="res://scenes/ability/anvil_ability/anvil.png" id="2_3xulg"]
 [ext_resource type="Texture2D" uid="uid://coc6wjagkxusg" path="res://assets/effects/IMPACT DUST KICK.png" id="2_b0a2v"]
 [ext_resource type="PackedScene" uid="uid://bdfm633tkddth" path="res://scenes/component/hitbox_component.tscn" id="3_wsx5o"]
@@ -118,8 +118,8 @@ tracks/4/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_7d6qf"]
 _data = {
-"RESET": SubResource("Animation_fnsg6"),
-"default": SubResource("Animation_v8lpd")
+&"RESET": SubResource("Animation_fnsg6"),
+&"default": SubResource("Animation_v8lpd")
 }
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_eh4is"]
